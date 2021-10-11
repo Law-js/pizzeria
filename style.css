@@ -735,6 +735,10 @@ hr {
   transition: 0.5s;
 }
 
+.choices button:hover p {
+  color: #dfe4ea;
+}
+
 .choices button:active {
   transform: scale(0.9);
   transition: transform 0.1s;
