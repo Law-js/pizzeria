@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar" role="menubar">
+        <div class="navbar-content">
+          <h3 class="logo">Pizzeria<span>Chez Sylvie</span></h3>
+          <nav class="nav" role="navigation">
+            <ul role="menu">
+              <li role="menuitem">
+                <a href="./index.html" title="accueil">
+                  <i class="fas fa-home"></i>
+                  <span>Accueil</span>
+                </a>
+              </li>
+              <li role="menuitem">
+                <a href="./pages/dishes.html" title="plats">
+                  <i class="fas fa-pizza-slice"></i>
+                  <span>Plats</span>
+                </a>
+              </li>
+              <li role="menuitem">
+                <a href="#contact" title="contacts">
+                  <i class="fas fa-phone"></i>
+                  <span>Contact</span>
+                </a>
+              </li>
+              <li role="menuitem">
+                <a href="./pages/quiz.html" title="quizz">
+                  <i class="fa fa-question-circle"></i>
+                  <span>Quiz</span>
+                </a>
+              </li>
+            </ul>
+            <div class="slider">
+              <div class="img-div div1"></div>
+              <div class="img-div div2"></div>
+              <div class="img-div div3"></div>
+              <div class="img-div div4"></div>
+            </div>
+          </nav>
+          <button class="burger">
+            <span class="bar"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="home">
+        <header class="parallax home-header header" id="top" role="heading">
+          <div class="overlay">
+            <h2 class="title">Chez Sylvie</h2>
+            <p class="description">“Sur place, à livrer ou emporter.”</p>
+            <a href="./pages/dishes.html" class="btn">Voir la carte</a>
+          </div>
+        </header>
+        <main class="home-content main" role="main">
+          <section role="article" class="home-art">
+            <h1>À propos</h1>
+            <p>
+              C’est au cœur de <strong>Sarralbe</strong> , petit village de
+              Moselle-Est, peuplé de Sarralbigeois et de cigognes, que débute
+              notre aventure, celle de <strong>Chez Sylvie</strong> . Au centre
+              de ce village bordé par l’Albe, nous souhaitons réécrire
+              l’histoire des <strong>pizzas</strong> en vous apportant joie,
+              convivialité mais surtout l’appétit. C’est en maîtrisant l’art des
+              estomacs bien remplis que nous sélectionnons chaque jours les
+              ingrédients parfaits pour notre pâte, des produits de saisons pour
+              vos palais désireux de qualité, des produits frais et locaux pour
+              enrichir nos actions éco-responsables. Tout cela avec bonne humeur
+              et sourire car oui, l’aspect culinaire compte, mais l’aspect
+              humain prime.
+            </p>
+            <div
+              class="aos"
+              data-aos="flip-up"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <figure>
+                <img src="./img/pizzeria2.jpg" alt="" />
+                <figcaption></figcaption>
+              </figure>
+            </div>
+            <p>
+              Vous nous connaissez certainement sous le nom de
+              <strong>Mimo</strong> ou bien même <strong>Mimo’zza</strong> …
+              Aujourd’hui notre nom change, notre histoire également. Et c’est
+              avec vous, nos chers clients, que nous souhaitons aujourd’hui
+              écrire, la première page de notre nouvelle aventure. Venez la
+              vivre avec nous, <strong>Chez Sylvie</strong>!
+            </p>
+          </section>
+          <hr />
+          <div class="infos" role="contentinfo" id="contact">
+            <div class="infos-content">
+              <div
+                class="contact"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
+                <h4>Contacts</h4>
+                <nav class="contact-nav">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x4794373216776329:0xf78ac97312d7af5f?source=g.page.share"
+                        target="_blank"
+                      >
+                        <i class="fas fa-map-pin"></i>
+                        <span>17 Rue Mal Foch, 57430 Sarralbe</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tel:+33387970224" title="appeler">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>03 87 97 02 24</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/chezsylviesarralbe"
+                        title="facebook"
+                        target="_blank"
+                      >
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div
+                class="opening"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
+                <h4>Horaires</h4>
+                <ul>
+                  <li>Lundi: Fermé</li>
+                  <li>Mardi: Fermé</li>
+                  <li>Mercredi: Fermé</li>
+                  <li>Jeudi: 18:00 - 22:00</li>
+                  <li>Vendredi: 18:00 - 22:00</li>
+                  <li>Samedi: 18:00 - 22:00</li>
+                  <li>Dimanche: 18:00 - 22:00</li>
+                </ul>
+              </div>
+              <div
+                class="payment"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
+                <h4>Moyens de paiement</h4>
+                <ul>
+                  <li>
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>Espèces</span>
+                  </li>
+                  <li>
+                    <i class="fab fa-cc-visa"></i>
+                    <span>Cartes bancaires</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-money-check"></i>
+                    <span>Chèques</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-ticket-alt"></i>
+                    <span>Tickets restaurants</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="animCar"
+              class="payment"
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+              data-aos-easing="ease-in-out"
+            >
+              <div class="car">
+                <img src="./img/car.png" alt="" />
+              </div>
+              <div class="delivery">
+                <div class="delivery-content">
+                  <p>Les livraisons sont offertes !!</p>
+                  <i class="far fa-smile-beam"></i>
+                  <p>Livraisons jusqu'à 10kms</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="main-footer"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <a href="#top">
+              <div class="arrow arrow-first"></div>
+              <div class="arrow arrow-second"></div>
+              <span>Retour haut de page</span>
+            </a>
+          </div>
+        </main>
+        <footer>
+          <ul>
+            <li>
+              <a href="./pages/mentions.html" target="_blank"
+                >Mentions légales</a
+              >
+            </li>
+            <li>
+              <a href="https://p-hector-dev.netlify.app" target="_blank"
+                >Réalisation du site par Pascal Hector</a
+              >
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+
+    <!-- slick -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!----------->
+
+    <!--  aos  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!----------->
+
+    <script src="./js/home.js" type="text/javascript"></script>
+    <script src="./js/index.js" type="text/javascript"></script>
+  </body>
+</html>
