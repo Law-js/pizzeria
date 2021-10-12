@@ -55,7 +55,7 @@ let questions = [
     "Sylvie"
   ),
   new Question(
-    "Combien de pizzas propose la pizzeria ?",
+    "Combien de plats sont à la carte ?",
     ["30", "40", "23", "31"],
     "30"
   ),
@@ -80,12 +80,12 @@ let questions = [
     "Aucune"
   ),
   new Question(
-    "Quelle est la différence entre une Reine et une Reine Blanche",
+    "Quelle est la différence entre une Reine et une Reine Blanche ?",
     ["Les lardons", "Les olives", "La crème", "Les champignons"],
     "La crème"
   ),
   new Question(
-    "Quel ingrédient ne se trouve pas sur une flamm",
+    "Quel ingrédient ne se trouve pas sur une flamm ?",
     ["Fromage", "Crème", "Lardons", "Oignons"],
     "Fromage"
   ),
