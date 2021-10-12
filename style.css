@@ -867,6 +867,15 @@ hr {
   .dynamic-text {
     font-size: 1.2em;
   }
+  
+    .choices button:hover {
+    background: #dfe4ea;
+    transition: 0.5s;
+  }
+
+  .choices button:hover p {
+    color: black;
+  }
 }
 
 @media screen and (max-width: 550px) {
