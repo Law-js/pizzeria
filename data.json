@@ -117,7 +117,7 @@
     {
       "type": "pizzas",
       "name": "4 Saisons",
-      "descr": "Tomate,jambon, champignons, fromage, poivrons, olives",
+      "descr": "Tomate, jambon, champignons, fromage, poivrons, olives",
       "price": "8.50"
     },
     {
@@ -315,7 +315,7 @@
     {
       "type": "desserts",
       "name": "Tiramisu Spécial",
-      "descr": "En fonctions des saisons",
+      "descr": "En fonction des saisons",
       "price": "4.00"
     },
     {
