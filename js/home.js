@@ -1,6 +1,11 @@
 const alertOnload = () => {
   window.addEventListener("load", () => {
-    alert("Souriez, toutes vos livraisons sont offertes !");
+    swal({
+      title: " Souriez, ",
+      text: " Toutes les livraisons sont offertes ! ",
+      icône: " avertissement ",
+      dangerMode: true,
+    });
   });
 };
 alertOnload();
