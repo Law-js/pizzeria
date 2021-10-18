@@ -39,7 +39,7 @@
     />
     <link rel="alternate" href="https://www.chez-sylvie.com/" hreflang="it" />
     <link rel="alternate" href="https://www.chez-sylvie.com/" hreflang="es" />
-    <link rel="icon" type="image/png" href="img/pizza.png" />
+    <link rel="icon" type="image/png" href="./../img/pizza.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -76,7 +76,7 @@
     </script>
   </head>
   <body class="dishes-body">
-    <div class="container">
+    <div class="container" id="top">
       <nav class="navbar" role="menubar">
         <div class="navbar-content">
           <h3 class="logo">Pizzeria<span>Chez Sylvie</span></h3>
@@ -120,7 +120,7 @@
         </div>
       </nav>
       <div class="dishes">
-        <header class="parallax dishes-header header" id="top" role="heading">
+        <header class="parallax dishes-header header" role="heading">
           <div class="overlay-menu">
             <ul>
               <li>
@@ -181,7 +181,13 @@
             data-aos="fade-up"
             data-aos-duration="500"
             data-aos-easing="ease-in-out"
-          ></div>
+          >
+            <a href="#top" title="Retour en haut de la page">
+              <div class="arrow arrow-first"></div>
+              <div class="arrow arrow-second"></div>
+              <span>Retour haut de page</span>
+            </a>
+          </div>
         </main>
         <footer>
           <ul>
