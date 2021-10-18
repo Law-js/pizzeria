@@ -345,6 +345,10 @@ footer ul {
 /*--------------------------------------------------------------------*/
 /* HOME */
 
+.swal-text {
+  font-size: 20px;
+}
+
 .home-header {
   background: url("./img/pizza.jpg");
   background-size: cover;
@@ -537,6 +541,10 @@ hr {
 
 /*--------------------------------------------------------------------*/
 /* DISHES */
+
+.dishes-body {
+  overflow: hidden;
+}
 
 .dishes-header {
   background-image: url("./img/bg-pizza.jpg");
@@ -867,8 +875,8 @@ hr {
   .dynamic-text {
     font-size: 1.2em;
   }
-  
-    .choices button:hover {
+
+  .choices button:hover {
     background: #dfe4ea;
     transition: 0.5s;
   }
