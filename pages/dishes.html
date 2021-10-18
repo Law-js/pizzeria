@@ -4,6 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:site_name" content="Pizzeria chez Sylvie" />
+    <meta property="og:title" content="Chez Sylvie" />
+    <meta
+      property="og:description"
+      content="Vous pouvez consulter notre carte de pizzas | Sarralbe - La pizzeria chez Sylvie (anciennement Mimo'zza)"
+    />
+    <meta property="og:image" content="img/pizza.png" />
+    <meta name="format-detection" content="telephone=no" />
+    <link
+      rel="alternate"
+      href="https://www.chez-sylvie.com/"
+      hreflang="fr-FR"
+    />
+    <link
+      rel="alternate"
+      href="https://www.chez-sylvie.com/"
+      hreflang="de-DE"
+    />
+    <link
+      rel="alternate"
+      href="https://www.chez-sylvie.com/"
+      hreflang="fr-CA"
+    />
+    <link
+      rel="alternate"
+      href="https://www.chez-sylvie.com/"
+      hreflang="en-UK"
+    />
+    <link
+      rel="alternate"
+      href="https://www.chez-sylvie.com/"
+      hreflang="en-US"
+    />
+    <link rel="alternate" href="https://www.chez-sylvie.com/" hreflang="it" />
+    <link rel="alternate" href="https://www.chez-sylvie.com/" hreflang="es" />
+    <link rel="icon" type="image/png" href="img/pizza.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -23,7 +59,21 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./../style.css" />
-    <title>Document</title>
+    <title>Chez Sylvie | Plats</title>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8KWZEFXBM3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-8KWZEFXBM3");
+    </script>
   </head>
   <body>
     <div class="container">
@@ -33,25 +83,25 @@
           <nav class="nav" role="navigation">
             <ul role="menu">
               <li role="menuitem">
-                <a href="./../index.html" title="accueil">
+                <a href="./../index.html" title="Accueil">
                   <i class="fas fa-home"></i>
                   <span>Accueil</span>
                 </a>
               </li>
               <li role="menuitem">
-                <a href="./dishes.html" title="plats">
+                <a href="./dishes.html" title="Plats">
                   <i class="fas fa-pizza-slice"></i>
                   <span>Plats</span>
                 </a>
               </li>
               <li role="menuitem">
-                <a href="./../index.html#contact" title="contacts">
+                <a href="./../index.html#contact" title="Contacts">
                   <i class="fas fa-phone"></i>
                   <span>Contact</span>
                 </a>
               </li>
               <li role="menuitem">
-                <a href="./quiz.html" title="quizz">
+                <a href="./quiz.html" title="Quizz">
                   <i class="fa fa-question-circle"></i>
                   <span>Quiz</span>
                 </a>
@@ -64,7 +114,7 @@
               <div class="img-div div4"></div>
             </div>
           </nav>
-          <button class="burger">
+          <button class="burger" title="Menu principal">
             <span class="bar"></span>
           </button>
         </div>
@@ -74,7 +124,7 @@
           <div class="overlay-menu">
             <ul>
               <li>
-                <a href="#content">
+                <a href="#content" title="Carte des pizzas">
                   <button value="pizzas">
                     <i class="fas fa-pizza-slice"></i>
                     <br />
@@ -83,7 +133,7 @@
                 </a>
               </li>
               <li>
-                <a href="#content">
+                <a href="#content" title="Carte des flamms">
                   <button value="flamms">
                     <i class="fas fa-fire-alt"></i>
                     <br />
@@ -93,7 +143,7 @@
               </li>
               <li>
                 <a href="#content">
-                  <button value="pâtes">
+                  <button value="pâtes" title="Carte des pâtes">
                     <i class="fas fa-concierge-bell"></i>
                     <br />
                     <span>Pâtes</span>
@@ -101,7 +151,7 @@
                 </a>
               </li>
               <li>
-                <a href="#content">
+                <a href="#content" title="Carte des desserts">
                   <button value="desserts">
                     <i class="fas fa-ice-cream"></i>
                     <br />
@@ -110,7 +160,7 @@
                 </a>
               </li>
               <li>
-                <a href="#content">
+                <a href="#content" title="Carte des boissons">
                   <button value="boissons">
                     <i class="fas fa-wine-glass-alt"></i>
                     <br />
@@ -132,7 +182,7 @@
             data-aos-duration="500"
             data-aos-easing="ease-in-out"
           >
-            <a href="#top">
+            <a href="#top" title="Retour en haut de la page">
               <div class="arrow arrow-first"></div>
               <div class="arrow arrow-second"></div>
               <span>Retour haut de page</span>
@@ -142,12 +192,18 @@
         <footer>
           <ul>
             <li>
-              <a href="./mentions.html" target="_blank"
+              <a
+                href="./mentions.html"
+                target="_blank"
+                title="Voir les mentions légales"
                 >Mentions légales</a
               >
             </li>
             <li>
-              <a href="https://p-hector-dev.netlify.app" target="_blank"
+              <a
+                href="https://p-hector-dev.netlify.app"
+                target="_blank"
+                title="Lien vers le site du développeur Web"
                 >Réalisation du site par Pascal Hector</a
               >
             </li>
